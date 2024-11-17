@@ -1,0 +1,29 @@
+.bar-container{
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  bottom: 3rem;
+  left: 0;
+  right: 0;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem
+}
+
+.bar{
+  display: flex,;
+  flex-wrap: wrap,;
+  justify-content: center;
+  gap:0px;
+  background-color:#fff
+}
+
+.button{
+  outline: none;                /* Remove the outline */
+  padding-left: 1rem;           /* Horizontal padding */
+  padding-right: 1rem;          /* Horizontal padding */
+  padding-top: 0.25rem;         /* Vertical padding */
+  padding-bottom: 0.25rem;      /* Vertical padding */
+  border-radius: 9999px;        /* Fully rounded corners (pill shape) */
+  color: white;   
+}   
